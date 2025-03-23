@@ -1,0 +1,1 @@
+{"window_size": 60, "n_features": 13, "model_type": "Transformer-LSTM", "name": "Transformer_LSTM_Autoencoder", "sequence_target": false}

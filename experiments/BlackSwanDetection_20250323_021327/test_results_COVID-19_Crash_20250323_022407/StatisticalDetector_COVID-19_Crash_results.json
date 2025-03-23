@@ -1,0 +1,19 @@
+{
+    "SPY": {
+        "accuracy": 0.9605263157894737,
+        "precision": 0.5625,
+        "recall": 0.8181818181818182,
+        "f1": 0.6666666666666666,
+        "confusion_matrix": [
+            [
+                210,
+                7
+            ],
+            [
+                2,
+                9
+            ]
+        ],
+        "plot_path": "experiments/BlackSwanDetection_20250323_021327/test_results_COVID-19_Crash_20250323_022407/StatisticalDetector_SPY_COVID-19_Crash.png"
+    }
+}

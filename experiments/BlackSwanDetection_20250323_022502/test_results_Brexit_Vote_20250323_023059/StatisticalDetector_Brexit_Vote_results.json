@@ -1,0 +1,19 @@
+{
+    "AAPL": {
+        "accuracy": 0.9126637554585153,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "confusion_matrix": [
+            [
+                209,
+                9
+            ],
+            [
+                11,
+                0
+            ]
+        ],
+        "plot_path": "experiments/BlackSwanDetection_20250323_022502/test_results_Brexit_Vote_20250323_023059/StatisticalDetector_AAPL_Brexit_Vote.png"
+    }
+}

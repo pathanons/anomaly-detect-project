@@ -1,0 +1,1 @@
+{"window_size": 60, "n_features": 13, "model_type": "LSTM", "name": "LSTM_VAE", "sequence_target": true, "latent_dim": 64}

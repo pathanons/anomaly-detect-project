@@ -1,0 +1,66 @@
+{
+    "BlackSwanDetector_LSTM": {
+        "accuracy": 0.9812409812409812,
+        "precision": 0.3888888888888889,
+        "recall": 0.7777777777777778,
+        "f1": 0.5185185185185185,
+        "confusion_matrix": [
+            [
+                673,
+                11
+            ],
+            [
+                2,
+                7
+            ]
+        ]
+    },
+    "BlackSwanDetector_CNN-LSTM": {
+        "accuracy": 0.9754689754689755,
+        "precision": 0.25,
+        "recall": 0.4444444444444444,
+        "f1": 0.32,
+        "confusion_matrix": [
+            [
+                672,
+                12
+            ],
+            [
+                5,
+                4
+            ]
+        ]
+    },
+    "BlackSwanDetector_Transformer-LSTM": {
+        "accuracy": 0.9812409812409812,
+        "precision": 0.375,
+        "recall": 0.6666666666666666,
+        "f1": 0.48,
+        "confusion_matrix": [
+            [
+                674,
+                10
+            ],
+            [
+                3,
+                6
+            ]
+        ]
+    },
+    "StatisticalDetector": {
+        "accuracy": 0.9725829725829725,
+        "precision": 0.25,
+        "recall": 0.5555555555555556,
+        "f1": 0.3448275862068966,
+        "confusion_matrix": [
+            [
+                669,
+                15
+            ],
+            [
+                4,
+                5
+            ]
+        ]
+    }
+}

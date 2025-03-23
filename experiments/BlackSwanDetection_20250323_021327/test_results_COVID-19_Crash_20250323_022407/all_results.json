@@ -1,0 +1,116 @@
+{
+    "CNN_LSTM_Autoencoder": {
+        "SPY": {
+            "accuracy": 0.9254385964912281,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "confusion_matrix": [
+                [
+                    211,
+                    6
+                ],
+                [
+                    11,
+                    0
+                ]
+            ],
+            "plot_path": "experiments/BlackSwanDetection_20250323_021327/test_results_COVID-19_Crash_20250323_022407/BlackSwanDetector_SPY_COVID-19_Crash.png"
+        }
+    },
+    "EWM_Detector": {
+        "SPY": {
+            "accuracy": 0.9429824561403509,
+            "precision": 0.4166666666666667,
+            "recall": 0.45454545454545453,
+            "f1": 0.43478260869565216,
+            "confusion_matrix": [
+                [
+                    210,
+                    7
+                ],
+                [
+                    6,
+                    5
+                ]
+            ],
+            "plot_path": "experiments/BlackSwanDetection_20250323_021327/test_results_COVID-19_Crash_20250323_022407/StatisticalDetector_SPY_COVID-19_Crash.png"
+        }
+    },
+    "IQR_Detector": {
+        "SPY": {
+            "accuracy": 0.9649122807017544,
+            "precision": 0.6,
+            "recall": 0.8181818181818182,
+            "f1": 0.6923076923076923,
+            "confusion_matrix": [
+                [
+                    211,
+                    6
+                ],
+                [
+                    2,
+                    9
+                ]
+            ],
+            "plot_path": "experiments/BlackSwanDetection_20250323_021327/test_results_COVID-19_Crash_20250323_022407/StatisticalDetector_SPY_COVID-19_Crash.png"
+        }
+    },
+    "LSTM_Autoencoder": {
+        "SPY": {
+            "accuracy": 0.9254385964912281,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "confusion_matrix": [
+                [
+                    211,
+                    6
+                ],
+                [
+                    11,
+                    0
+                ]
+            ],
+            "plot_path": "experiments/BlackSwanDetection_20250323_021327/test_results_COVID-19_Crash_20250323_022407/BlackSwanDetector_SPY_COVID-19_Crash.png"
+        }
+    },
+    "Transformer_LSTM_Autoencoder": {
+        "SPY": {
+            "accuracy": 0.9254385964912281,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "confusion_matrix": [
+                [
+                    211,
+                    6
+                ],
+                [
+                    11,
+                    0
+                ]
+            ],
+            "plot_path": "experiments/BlackSwanDetection_20250323_021327/test_results_COVID-19_Crash_20250323_022407/BlackSwanDetector_SPY_COVID-19_Crash.png"
+        }
+    },
+    "ZScore_Detector": {
+        "SPY": {
+            "accuracy": 0.9605263157894737,
+            "precision": 0.5625,
+            "recall": 0.8181818181818182,
+            "f1": 0.6666666666666666,
+            "confusion_matrix": [
+                [
+                    210,
+                    7
+                ],
+                [
+                    2,
+                    9
+                ]
+            ],
+            "plot_path": "experiments/BlackSwanDetection_20250323_021327/test_results_COVID-19_Crash_20250323_022407/StatisticalDetector_SPY_COVID-19_Crash.png"
+        }
+    }
+}

@@ -1,0 +1,116 @@
+{
+    "CNN_LSTM_Autoencoder": {
+        "NVDA": {
+            "accuracy": 0.935,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "confusion_matrix": [
+                [
+                    187,
+                    2
+                ],
+                [
+                    11,
+                    0
+                ]
+            ],
+            "plot_path": "experiments/BlackSwanDetection_20250323_022502/test_results_NVIDIA_Crash_20250323_032841/BlackSwanDetector_NVDA_NVIDIA_Crash.png"
+        }
+    },
+    "EWM_Detector": {
+        "NVDA": {
+            "accuracy": 0.94,
+            "precision": 0.4,
+            "recall": 0.18181818181818182,
+            "f1": 0.25,
+            "confusion_matrix": [
+                [
+                    186,
+                    3
+                ],
+                [
+                    9,
+                    2
+                ]
+            ],
+            "plot_path": "experiments/BlackSwanDetection_20250323_022502/test_results_NVIDIA_Crash_20250323_032841/StatisticalDetector_NVDA_NVIDIA_Crash.png"
+        }
+    },
+    "IQR_Detector": {
+        "NVDA": {
+            "accuracy": 0.925,
+            "precision": 0.25,
+            "recall": 0.18181818181818182,
+            "f1": 0.21052631578947367,
+            "confusion_matrix": [
+                [
+                    183,
+                    6
+                ],
+                [
+                    9,
+                    2
+                ]
+            ],
+            "plot_path": "experiments/BlackSwanDetection_20250323_022502/test_results_NVIDIA_Crash_20250323_032841/StatisticalDetector_NVDA_NVIDIA_Crash.png"
+        }
+    },
+    "LSTM_Autoencoder": {
+        "NVDA": {
+            "accuracy": 0.935,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "confusion_matrix": [
+                [
+                    187,
+                    2
+                ],
+                [
+                    11,
+                    0
+                ]
+            ],
+            "plot_path": "experiments/BlackSwanDetection_20250323_022502/test_results_NVIDIA_Crash_20250323_032841/BlackSwanDetector_NVDA_NVIDIA_Crash.png"
+        }
+    },
+    "Transformer_LSTM_Autoencoder": {
+        "NVDA": {
+            "accuracy": 0.935,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "confusion_matrix": [
+                [
+                    187,
+                    2
+                ],
+                [
+                    11,
+                    0
+                ]
+            ],
+            "plot_path": "experiments/BlackSwanDetection_20250323_022502/test_results_NVIDIA_Crash_20250323_032841/BlackSwanDetector_NVDA_NVIDIA_Crash.png"
+        }
+    },
+    "ZScore_Detector": {
+        "NVDA": {
+            "accuracy": 0.925,
+            "precision": 0.25,
+            "recall": 0.18181818181818182,
+            "f1": 0.21052631578947367,
+            "confusion_matrix": [
+                [
+                    183,
+                    6
+                ],
+                [
+                    9,
+                    2
+                ]
+            ],
+            "plot_path": "experiments/BlackSwanDetection_20250323_022502/test_results_NVIDIA_Crash_20250323_032841/StatisticalDetector_NVDA_NVIDIA_Crash.png"
+        }
+    }
+}

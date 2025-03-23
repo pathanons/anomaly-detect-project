@@ -1,0 +1,19 @@
+{
+    "MSFT": {
+        "accuracy": 0.935,
+        "precision": 0.375,
+        "recall": 0.2727272727272727,
+        "f1": 0.3157894736842105,
+        "confusion_matrix": [
+            [
+                184,
+                5
+            ],
+            [
+                8,
+                3
+            ]
+        ],
+        "plot_path": "experiments/BlackSwanDetection_20250323_022502/test_results_NVIDIA_Crash_20250323_023820/StatisticalDetector_MSFT_NVIDIA_Crash.png"
+    }
+}

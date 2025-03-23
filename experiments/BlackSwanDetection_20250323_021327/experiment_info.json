@@ -1,0 +1,23 @@
+{
+    "experiment_name": "BlackSwanDetection",
+    "ticker": "SPY",
+    "start_date": "2010-01-01",
+    "end_date": "2023-12-31",
+    "window_size": 60,
+    "test_size": 0.2,
+    "features": [
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume",
+        "Return",
+        "LogReturn",
+        "Volatility_20d",
+        "VolumeChange",
+        "RelativeVolume",
+        "PriceRange",
+        "RSI",
+        "MA5_MA20_Diff"
+    ]
+}
